@@ -5,17 +5,17 @@ for (statement1; statement2, statement3;) {
   code block to be executed
 };
 
-If you want to run a atstement 10 times we can write a 'for loop' instead of writting it out 10 times.
+run a a statement 10 times, write a 'for loop' instead of writting it out 10 times.
 */ 
 
 for (let i = 0; i < 10; i++) {
-  console.log("repeat ten times");
+  console.log("repeat ten times with a for loop");
 }
 
-/* we need the 'for' keyword so the computer knows what kind of a loop we are using, after the keyword "for" are the parentheses which hold the FUN part (let i = 0; i < 10; i++) 
+/* The 'for' keyword, the computer knows what kind of a loop we are using, after the keyword "for" are the parentheses (let i = 0; i < 10; i++) 
 
 statement1:
-assigned decleared the varible named i and gave it the value of 0,
+decleared the varible named i, and gave it the value of 0,
 
 it sets the start of the loop, where the computer should starts counting from: i = 0;
 
